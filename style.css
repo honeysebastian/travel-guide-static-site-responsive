@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 2rem 3rem;
+}
+
+.navbar .logo {
+    font-size: 3rem;
+    color: chocolate;
+}
+
+.navbar .logo span {
+    font-size: 1rem;
+    color: black;
+}
+
+.navbar-nav {
+    padding-right: 2rem;
+}
+
+.nav-item a {
+    color: rgb(10, 10, 10);
+    font-weight: 600;
+}
+
+.bg-img {
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/banner.jpg);
+    background-size: cover;
+
+}
+
+.content {
+    text-align: center;
+    padding-top: 10rem;
+    color: white;
+}
+
+.first-head {
+    font-family: "Protest Strike", sans-serif;
+}
+
+.sec-head {
+    font-family: "Dancing Script", cursive;
+}
+.button{
+    text-align: center;
+}
+#showFormBtn{
+    display: none;
+}
+
+/* Apply default styling */
+#formContainer{
+    text-align: center;
+    width: 400px;
+    height: 667px;
+    position: absolute;
+    top: 5rem;
+    left: 1rem;
+    display: none;
+    background-color: white;
+    border-radius: 5px;
+  }
+  #formContainer form{
+    display: block;
+  }
+  #showSubmitBtn{
+    display: none;
+}
+#submit-btn{
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #3954ac;
+    color: #fff;
+    border-radius: 4px;
+
+}
+  
+  /* When the checkbox is checked, display the form */
+  #showFormBtn:checked~#formContainer {
+    display: block;
+  }
+  #showSubmitBtn:checked + #submit-btn + #formContainer {
+    display: none; /* Hide the form when the checkbox is checked */
+}
+  
+  /* Style the label to look like a button */
+  #enquiry-btn {
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #1b7c40;
+    color: #fff;
+    border-radius: 4px;
+  }
+.bttn button{
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #2e2977;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+.bttn button:hover{
+    background-color: red;
+    color: white;
+}
+.packages-card:hover{
+    box-shadow: 10px 10px 10px grey;
+}
+#carouselExampleCaptions .carousel-inner{
+    height: 500px;
+}
+.carousel-item{
+    height: 100%;
+}
+.carousel-item img{
+    height: 100%;
+}
+#carousel-btn{
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #2e2977;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+
+}
+.overlay-card{
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #61e6e6;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+#overlay-button{
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #f0721e;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+
+}
+.overlay-card:hover .overlay {
+    height: 100%;
+  }
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .customer-body i{
+    color: green;
+
+  }
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #19173a;
+}
+footer ul li{
+    list-style-type: none;
+    line-height: 2rem;
+}
+.links i{
+    color: white;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
